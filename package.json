@@ -1,22 +1,22 @@
 {
-  "name": "Jonnzer-template",
+  "name": "jz-temp-cli",
   "version": "0.0.1",
   "description": "一款以vue+Ts技术为主，包括PC、H5、小程序、Electron的脚手架",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonnzer/Jonnzer-project-template.git"
+    "url": "git+https://github.com/jonnzer/project-temp-cli.git"
   },
   "keywords": [],
-  "author": "jonnzer",
+  "author": "jonnzer <janebenjohn@outlook.com> (http://github.com/jonnzer)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonnzer/Jonnzer-project-template/issues"
+    "url": "https://github.com/jonnzer/project-temp-cli/issues"
   },
-  "homepage": "https://github.com/jonnzer/Jonnzer-project-template#readme",
+  "homepage": "https://github.com/jonnzer/project-temp-cli#readme",
   "bin": {
     "JZ-temp": "bin/index.js",
     "JZ-cli": "bin/index.js",
