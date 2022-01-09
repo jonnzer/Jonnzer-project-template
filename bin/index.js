@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { program } = require('commander')
-console.log('welcome to use jz-cli 脚手架！')
+console.log('welcome to use JZ-cli 脚手架！')
 
 const packageJson = require('../package.json')
 program
